@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd hbd-site && npm run build",
+  "outputDirectory": "hbd-site/.next",
+  "installCommand": "cd hbd-site && npm install",
+  "framework": "nextjs"
+}
+
