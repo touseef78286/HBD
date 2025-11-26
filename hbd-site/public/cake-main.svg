@@ -1,0 +1,106 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1024" />
+      <stop offset="0.5" stop-color="#0b0814" />
+      <stop offset="1" stop-color="#050309" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#fdf3df" stop-opacity="0.95" />
+      <stop offset="0.45" stop-color="#f1c98f" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#050309" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cakeSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf7ef" />
+      <stop offset="0.6" stop-color="#f1c98f" />
+      <stop offset="1" stop-color="#c47a3b" />
+    </linearGradient>
+    <linearGradient id="cakeTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf7ef" />
+      <stop offset="1" stop-color="#f4e4cf" />
+    </linearGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#fdf7ef" stop-opacity="0.85" />
+      <stop offset="0.3" stop-color="#e0d2c0" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#050309" stop-opacity="0.3" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <circle cx="400" cy="200" r="260" fill="url(#glow)" opacity="0.95" />
+
+  <ellipse cx="400" cy="420" rx="220" ry="56" fill="#050309" opacity="0.9" />
+  <ellipse cx="400" cy="414" rx="210" ry="52" fill="url(#plate)" />
+
+  <g transform="translate(210,210)">
+    <ellipse cx="190" cy="88" rx="130" ry="40" fill="#3b2520" opacity="0.35" />
+    <rect x="70" y="0" width="240" height="150" rx="40" fill="url(#cakeSide)" />
+    <ellipse cx="190" cy="0" rx="120" ry="34" fill="url(#cakeTop)" />
+
+    <path
+      d="M70 52 C 110 80 140 90 190 92 C 240 94 270 86 310 62 L 310 92 C 270 116 240 124 190 126 C 140 124 110 114 70 96 Z"
+      fill="#f7ddc5"
+    />
+    <path
+      d="M90 52 C 110 72 130 78 150 78 C 170 78 190 68 210 70 C 230 72 250 84 270 86 C 290 88 300 84 310 78"
+      fill="none"
+      stroke="#e6a85a"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.9"
+    />
+
+    <g fill="#e6b7b2">
+      <circle cx="110" cy="110" r="6" />
+      <circle cx="140" cy="126" r="5" />
+      <circle cx="200" cy="118" r="5" />
+      <circle cx="240" cy="132" r="6" />
+      <circle cx="270" cy="110" r="5" />
+    </g>
+  </g>
+
+  <g>
+    <g transform="translate(310,145)">
+      <rect x="26" y="0" width="4" height="48" rx="2" fill="#f4e4cf" />
+      <path
+        d="M28 0 C 20 -20 36 -20 28 0 Z"
+        fill="#fdf7ef"
+        stroke="#f1c98f"
+        stroke-width="1"
+      />
+    </g>
+    <g transform="translate(378,135)">
+      <rect x="26" y="0" width="4" height="48" rx="2" fill="#f4e4cf" />
+      <path
+        d="M28 0 C 20 -20 36 -20 28 0 Z"
+        fill="#fdf7ef"
+        stroke="#f1c98f"
+        stroke-width="1"
+      />
+    </g>
+    <g transform="translate(446,145)">
+      <rect x="26" y="0" width="4" height="48" rx="2" fill="#f4e4cf" />
+      <path
+        d="M28 0 C 20 -20 36 -20 28 0 Z"
+        fill="#fdf7ef"
+        stroke="#f1c98f"
+        stroke-width="1"
+      />
+    </g>
+  </g>
+
+  <g fill="#f1c98f" opacity="0.8">
+    <circle cx="150" cy="110" r="3" />
+    <circle cx="210" cy="90" r="2.5" />
+    <circle cx="260" cy="140" r="2.5" />
+    <circle cx="560" cy="120" r="3" />
+    <circle cx="610" cy="90" r="2.5" />
+    <circle cx="520" cy="70" r="2.8" />
+    <circle cx="460" cy="100" r="2" />
+    <circle cx="340" cy="80" r="2.5" />
+  </g>
+</svg>
+
+
+

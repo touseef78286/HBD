@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* Global color tokens for the luxurious theme */
+:root {
+  --page-bg: radial-gradient(
+      circle at top left,
+      rgba(245, 225, 180, 0.12),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(255, 215, 160, 0.18),
+      transparent 55%
+    ),
+    #050309;
+
+  --cream-100: #fdf7ef;
+  --cream-200: #f4e4cf;
+  --gold-soft: #f1c98f;
+  --gold-strong: #e6a85a;
+  --rose-soft: #e6b7b2;
+  --charcoal: #0b0a11;
+}
+
+@theme inline {
+  --color-cream-50: rgba(253, 247, 239, 0.75);
+  --color-cream-100: var(--cream-100);
+  --color-cream-200: var(--cream-200);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-strong: var(--gold-strong);
+  --color-rose-soft: var(--rose-soft);
+  --color-charcoal: var(--charcoal);
+
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--page-bg);
+  color: var(--cream-100);
+  font-family: var(--font-body), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Utility classes for background gradient and glass panels */
+.bg-page-gradient {
+  background: var(--page-bg);
+}
+
+.glass-panel {
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.06), rgba(10, 8, 16, 0.96));
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow:
+    0 26px 80px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(255, 224, 186, 0.25);
+  backdrop-filter: blur(24px);
+}
+
+.text-glow-soft {
+  text-shadow:
+    0 0 12px rgba(255, 215, 160, 0.7),
+    0 0 30px rgba(255, 215, 160, 0.6);
+}
+
+.section-padding {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
