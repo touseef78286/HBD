@@ -12,6 +12,7 @@ import { CinematicMessage } from "@/components/CinematicMessage";
 import { BestMomentsSection } from "@/components/BestMomentsSection";
 import { FireworksFinale } from "@/components/FireworksFinale";
 import { HeaderBar } from "@/components/HeaderBar";
+import { ChatsSection } from "@/components/ChatsSection";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <CakeCuttingSection />
         <DecorationsSection />
         <MemoriesSection />
+        <ChatsSection />
         <WishBoard />
         <GiftUnboxingSection />
         <CinematicMessage />

@@ -1,0 +1,28 @@
+<svg width="720" height="1280" viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde0d6" />
+      <stop offset="100%" stop-color="#f8d0c1" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#bg)" />
+  <g font-family="Poppins, Arial, sans-serif" font-size="32">
+    <rect x="80" y="200" width="420" height="70" rx="30" fill="#f3b1c2" />
+    <text x="110" y="245" fill="#2f1a24">Good morning meri Jan 😘</text>
+
+    <rect x="80" y="290" width="520" height="140" rx="32" fill="#f3b1c2" />
+    <text x="110" y="340" fill="#2f1a24">Mobile sath ly jana paper dy</text>
+    <text x="110" y="385" fill="#2f1a24">kr msg krna, bt kry gy and call</text>
+    <text x="110" y="430" fill="#2f1a24">ho gai cut, chalo long phr kbhi</text>
+
+    <rect x="420" y="470" width="200" height="70" rx="28" fill="#1f2a44" />
+    <text x="445" y="515" fill="#fdf7ef">Good morning</text>
+
+    <rect x="80" y="580" width="220" height="70" rx="28" fill="#f3b1c2" />
+    <text x="110" y="625" fill="#2f1a24">Uth gya bacha</text>
+
+    <rect x="420" y="670" width="230" height="70" rx="28" fill="#1f2a44" />
+    <text x="445" y="715" fill="#fdf7ef">Ahooo 😘</text>
+  </g>
+</svg>
+

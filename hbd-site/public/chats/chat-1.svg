@@ -1,0 +1,32 @@
+<svg width="720" height="1280" viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbe2d8" />
+      <stop offset="100%" stop-color="#f6d1c3" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#bg)" />
+  <g font-family="Poppins, Arial, sans-serif" font-size="32">
+    <rect x="80" y="160" width="240" height="80" rx="30" fill="#f8cfd6" />
+    <text x="110" y="210" fill="#2f1a24">Oy</text>
+
+    <rect x="80" y="260" width="280" height="80" rx="30" fill="#f8cfd6" />
+    <text x="110" y="310" fill="#2f1a24">Janu</text>
+
+    <rect x="80" y="360" width="400" height="80" rx="30" fill="#f8cfd6" />
+    <text x="110" y="410" fill="#2f1a24">Mera bacha soo rha ha</text>
+
+    <rect x="80" y="480" width="540" height="160" rx="32" fill="#f8cfd6" />
+    <text x="110" y="540" fill="#2f1a24">Kitny pyary lgty ho soty</text>
+    <text x="110" y="585" fill="#2f1a24">hwy uthty he brr brr start</text>
+    <text x="110" y="630" fill="#2f1a24">kr dyty 😢💗</text>
+
+    <rect x="80" y="660" width="240" height="80" rx="30" fill="#f8cfd6" />
+    <text x="110" y="710" fill="#2f1a24">Love you 😘</text>
+
+    <rect x="80" y="760" width="480" height="80" rx="30" fill="#f8cfd6" />
+    <text x="110" y="810" fill="#2f1a24">Notification ki awaz nhi aa</text>
+    <text x="110" y="855" fill="#2f1a24">rhi ab kiya 🤔😂</text>
+  </g>
+</svg>
+

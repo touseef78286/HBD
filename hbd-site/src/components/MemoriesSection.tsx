@@ -58,11 +58,11 @@ const MEMORY_IMAGES = [
            <h2 className="font-display text-3xl md:text-4xl text-cream-100">
              Memories that feel like Polaroids
            </h2>
-           <p className="mx-auto max-w-2xl text-sm text-cream-200/85">
-             Imagine these as tiny photos pinned to a board – every one a
-             moment I&apos;d choose to live again, simply because you&apos;re in
-             it.
-           </p>
+          <p className="mx-auto max-w-2xl text-sm text-cream-200/85">
+            Imagine these as tiny photos pinned to a board – every one a
+            moment I&apos;d choose to live again, simply because you&apos;re in
+            it. Keep scrolling and even our chats make a home on this page.
+          </p>
          </div>
 
          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
